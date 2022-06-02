@@ -1,6 +1,9 @@
+﻿
 1. Как переводится versionihaldusüsteem?
+система управления версиями, например GitHub
 2. Как полностью удалить таблицу?
+drop table
 3. Показать имена, содержащие букву U
 select nimi
 from opilased
-where nimi LIKE ...
+where nimi LIKE %U%
