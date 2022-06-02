@@ -1,0 +1,6 @@
+1. Как переводится versionihaldusüsteem?
+2. Как полностью удалить таблицу?
+3. Показать имена, содержащие букву U
+select nimi
+from opilased
+where nimi LIKE ...
