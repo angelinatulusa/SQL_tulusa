@@ -6,4 +6,4 @@ drop table
 3. Показать имена, содержащие букву U
 select nimi
 from opilased
-where nimi LIKE %U%
+where nimi LIKE %U%.
